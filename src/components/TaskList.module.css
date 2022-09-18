@@ -1,0 +1,52 @@
+.task{
+    display:inline-block;
+    flex-direction:inline;
+    max-width: 400px;
+    align-content: left;
+    padding: 10px 10px 1px 10px;
+    background:#ffc;
+    border: 0.2px solid #292c35;
+    margin:10px 20px;
+    box-shadow: none;
+    transition: 0.5;
+    width:10em;
+    animation-delay: 2s;
+}
+
+.title p{
+    font-size: 14px;
+    color:#000;
+}
+
+.title h5{
+    color:#000;
+    padding-bottom: 5px;
+    text-align: left;
+}
+
+.actions{
+    display: space-between;
+    position: relative;
+    padding: 10px;
+    margin-top: auto;
+}
+
+.actions i{
+    padding: 0px 8px;
+    color:#000;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.5s;
+    margin: 0;
+   
+}
+
+.actions i:hover{
+    color: aqua;
+}
+
+.task:hover{
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
+    transform: scale(1.05);
+    position:relative;
+}
